@@ -61,7 +61,11 @@ int main() {
   int result[3][2] = {0};
   
   // your code starts here
-  
+  for (int i=0;i<3;i++){
+      for (int j=0;j<2;j++){
+          result[i][j]=matrix_A[i][j]+matrix_B[i][j];
+      }
+  }
   // your code ends here
   
   printf("A = \n");
