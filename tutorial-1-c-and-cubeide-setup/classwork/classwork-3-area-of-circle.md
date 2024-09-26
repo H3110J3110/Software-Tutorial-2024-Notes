@@ -11,7 +11,10 @@ Construct a function called `circleArea` to calculate the area of a circle using
 #include <stdbool.h>
 
 // your function starts here
-  
+#include <math.h>
+float circleArea(float radius){
+    return radius*radius*M_PI;
+}
 // your function ends here
 
 int main() {
