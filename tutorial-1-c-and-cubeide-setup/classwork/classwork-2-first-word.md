@@ -20,7 +20,11 @@ int main() {
   printf("Before trimming: %s\n", input);
 
   // your code starts here
-  
+  int i=0;
+  while (input[i]!=' ' && input[i]!='\0'){
+      i++;
+  }
+  input[i]='\0';
   // your code ends here
   
   printf("After trimming: %s\n", input);
